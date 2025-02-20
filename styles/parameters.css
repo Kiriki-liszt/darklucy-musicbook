@@ -7,7 +7,7 @@
 	--font-sans-light: 'Pretendard-Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 	
 	/* 만약 다운로드해서 저장해둔 프로필 이미지를 사용한다면 */
-    --profile-img: url(/assets/profile.png);
+    --profile-img: url(/assets/profile.gif);
 
 	/* 만약 치지직 등의 인터넷 사이트에 있는 프로필 이미지 주소를 그대로 사용한다면 */
 	/* --profile-img: url(https://nng-phinf.pstatic.net/MjAyNDA0MjhfMTk2/MDAxNzE0MjM0NzM1NjI5.UWIavZQSKqWGROmxrtp2T653-AjuiPv23itiDTSKuMQg.gzg50RNCNfVigmamrA70FXueOHTHBBlw45VVjblFOicg.PNG/99999999999.png);
