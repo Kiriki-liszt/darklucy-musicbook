@@ -69,7 +69,7 @@ google.charts.load("current", { packages: ["corechart"] }).then(() => {
 			return b - a;
 		});
 		addOrdered = JSON.parse(JSON.stringify(musicbook));
-		console.log(addOrdered);
+		// console.log(addOrdered);
 
 		musicbook.sort((a, b) => {
 			a = a.song.toLowerCase();
