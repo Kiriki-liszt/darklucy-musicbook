@@ -2,7 +2,7 @@
 
 <div align="center">
 <a href="https://ch.sooplive.co.kr/darklucy">  
-    <img src="/assets/profile.png" width="400" height="400" alt="타락천사루시의 프로필 이미지"></img>
+    <img src="/assets/profile.gif" width="400" height="400" alt="타락천사루시의 프로필 이미지"></img>
 </a>
 </div>
 
