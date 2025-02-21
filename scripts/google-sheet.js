@@ -38,7 +38,7 @@ google.charts.load("current", { packages: ["corechart"] }).then(() => {
 		let jsonData = JSON.parse(dataTable);
 		// console.log(jsonData);
 		// let cols = jsonData.cols.map((col) => col.label); console.log("cols: \n", cols);
-		let cols = ["order", "artist", "song", "genre", "category", "price", "cover_link"];
+		let cols = ["order", "artist", "song", "genre", "category", "memo", "cover_link"];
 		musicbook = jsonData.rows.map((row) => {
 			let newRow;
 			row.c.forEach((obj, index) => {
@@ -47,7 +47,15 @@ google.charts.load("current", { packages: ["corechart"] }).then(() => {
 				["f", "v"].forEach((each) => delete obj[each]);
 				
 				if (cols[index] == "genre") {
+					if (obj.genre == null) {
+						obj.genre = " ";
+					}
 					obj.genre = (obj.genre).split(",");
+				}
+				if (cols[index] == "category") {
+					if (obj.category == null) {
+						obj.category = " ";
+					}
 				}
 				// console.log(JSON.stringify(obj.cover_link));
 				if (cols[index] == "cover_link") {
